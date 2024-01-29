@@ -1,0 +1,20 @@
+body {
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	gap: 2em;
+}
+
+.notes {
+	display: grid;
+	gap: 1em;
+}
+
+.note {
+	margin: 0;
+	padding: 1em;
+	width: 10em;
+	height: 10em;
+	border: thin solid black;
+	overflow: auto;
+}
